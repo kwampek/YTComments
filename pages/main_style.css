@@ -1,0 +1,142 @@
+
+.main {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+/* Видео */
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.video-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.video-meta {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Канал */
+.channel-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.channel-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #272727;
+}
+
+.channel-name {
+    font-weight: 500;
+}
+
+/* Описание */
+.description-box {
+    background-color: #1f1f1f;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Комментарии */
+.comment-container {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.comment-container:hover {
+    background-color: rgba(255,255,255,0.03);
+    border-radius: 8px;
+}
+
+.comment-vertical-line {
+    position: absolute;
+    left: -18px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #2a2a2a;
+}
+
+.comment-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #3ea6ff;
+    flex-shrink: 0;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-author {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.comment-meta {
+    color: #888;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.comment-text {
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 1.5;
+    color: #eaeaea;
+}
+
+.comment-actions {
+    margin-top: 6px;
+    font-size: 13px;
+    color: #888;
+}
+
+.comment-actions span {
+    cursor: pointer;
+}
+
+.comment-actions span:hover {
+    color: #fff;
+}
+
+.comment-reply {
+    color: #3ea6ff;
+    margin-left: 10px;
+}
+
+.comment-reply:hover {
+    text-decoration: underline;
+}
+
+
+.generate-button-wrapper button {
+    background-color: #f0f2f6 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 16px !important;
+    padding: 4px 12px !important;
+    font-size: 14px !important;
+    transition: 0.2s !important;
+}
+.generate-button-wrapper button:hover {
+    background-color: #e0e2e6 !important;
+    border-color: #aaa !important;
+}

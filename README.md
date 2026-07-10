@@ -1,18 +1,26 @@
-# 💬 Chatbot template
+# 💬 YouComments
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+Дообученная модель GPT-2 Large для генерации комментариев и ответов к ним на YouTube.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
 
-### How to run it on your own machine
+Основная версия с моделью лежит на hugging face: 
+https://huggingface.co/kwampek/YouComments/tree/main
 
-1. Install the requirements
+
+### Запуск
+
+0. Перенести `weights.pt` из репозитория выше в папку models
+   ```
+   $ mv ~/Downloads/weights.pt ./models/weights.pt
+   ```
+ 
+1. Скачать `requirements`
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Запустить
 
    ```
    $ streamlit run streamlit_app.py

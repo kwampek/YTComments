@@ -1,2 +1,6 @@
 streamlit
 openai
+fastapi
+torch
+transformers
+google-api-python-client
