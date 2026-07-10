@@ -7,6 +7,8 @@
 https://huggingface.co/kwampek/YouComments/tree/main
 
 
+Рекомендую посмотреть `main.ipynb` с подробно описанным ходом обучения. 
+
 ### Запуск
 
 0. Перенести `weights.pt` из репозитория выше в папку models
